@@ -10,13 +10,13 @@ Pod::Spec.new do |spec|
 
 
   spec.name         = "Amani"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "A short description of AmaniSDK."
   spec.description  = "The knob control is a completely customizable widget that can be used in any iOS app. It also plays a little victory fanfare."
   spec.homepage     = "http://EXAMPLE/AmaniSDK"
   spec.license      = "MIT"
   spec.author             = { "Sunita" => "Sunita.kumari@daffodilsw.com" }
-  spec.platform     = :ios, "5.0"
+  spec.platform     = :ios, "4.2"
   spec.source       = { :git => 'https://github.com/Sunitadaffodil/AmaniSDKDistribution.git', :tag => "#{spec.version}"}
   spec.dependency 'Alamofire'
   spec.dependency 'SwiftLint'
