@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
   spec.author             = { "Sunita" => "Sunita.kumari@daffodilsw.com" }
   spec.platform     = :ios, "5.0"
-  spec.source       = { : git => 'https://github.com/Sunitadaffodil/AmaniSDKDistribution.git'}
+  spec.source       = { :git => 'https://github.com/Sunitadaffodil/AmaniSDKDistribution.git', :tag => "#{spec.version}"}
   spec.dependency 'Alamofire'
   spec.dependency 'SwiftLint'
   spec.dependency 'iProgressHUD'
